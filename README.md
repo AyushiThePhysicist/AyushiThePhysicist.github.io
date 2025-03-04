@@ -1,39 +1,74 @@
-# Personal Portfolio Website
+# Physics Teacher Portfolio Website
 
-This repository contains the source code for my personal portfolio website, hosted using GitHub Pages.
+A professional portfolio website for an IB DP Physics teacher at Oberoi International School.
 
-## Overview
+## Features
 
-This is a personal project aimed at showcasing my skills, projects, and professional experience through a custom-built portfolio website. By leveraging GitHub Pages, I'm able to host this website directly from this repository.
+- Responsive design that works on mobile, tablet, and desktop devices
+- Modern UI with Tailwind CSS
+- Interactive elements with JavaScript
+- Sections for:
+  - About the teacher
+  - Teaching philosophy
+  - Educational resources
+  - Research and publications
+  - Contact form
 
-## Purpose
+## Technologies Used
 
-The main goals of this portfolio website are:
-- Present my professional background and skills
-- Showcase projects I've worked on
-- Provide a way for potential employers or collaborators to contact me
-- Demonstrate my web development abilities
+- HTML5
+- CSS3 with Tailwind CSS framework
+- JavaScript (ES6+)
+- Font Awesome for icons
 
-## Technologies
+## Project Structure
 
-This project is built using:
-- HTML
-- CSS
-- JavaScript
-- GitHub Pages for hosting
+- `index.html` - Main HTML file
+- `styles.css` - Custom CSS styles beyond Tailwind
+- `script.js` - JavaScript for interactive elements
 
-## Development
+## Getting Started
 
-This is an ongoing project that will be updated as I complete new projects and gain new skills.
+To view the website locally:
 
-## Deployment
+1. Clone this repository
+2. Open `index.html` in your web browser
 
-The website is automatically deployed through GitHub Pages from this repository.
+## Customization
 
-## Contact
+### Changing Profile Information
 
-Feel free to reach out if you have any questions or would like to connect!
+Edit the text content in `index.html` to update:
+- Teacher's name and credentials
+- About section content
+- Teaching philosophy
+- Resources and publications
+- Contact information
 
----
+### Changing Colors
 
-© Ayushi Singh
+The website uses Tailwind CSS color classes with an indigo/purple color scheme. To change the color scheme:
+
+1. Replace color classes in `index.html` (e.g., replace `bg-indigo-800` with `bg-blue-800`)
+2. Update custom CSS variables in `styles.css` if needed
+
+### Adding Profile Image
+
+Replace the placeholder image with a real profile photo:
+1. Add your image to the project directory
+2. Update the image source in the About section:
+   ```html
+   <img src="your-image-file.jpg" alt="Profile Image" class="w-full h-full object-cover">
+   ```
+
+## Browser Compatibility
+
+This website is compatible with:
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## License
+
+This project is available for personal and commercial use.
